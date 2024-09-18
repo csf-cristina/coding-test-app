@@ -1,6 +1,6 @@
 # Overview
 This is a Spring Boot WebFlux application designed to fetch data from an API, transform it and return the unique links between router locations. 
-The application is built using Java 17 and leverages Spring Boot’s WebFlux framework for building non-blocking, reactive web applications. In this case we are using RestClient to make the web calls as its a simple synchronous API call.
+The application is built using Java 17 and leverages Spring Boot’s WebFlux framework for building non-blocking, reactive web applications. In this case the app uses RestClient to make the web calls as its a simple synchronous API call.
 
 Additionally, it integrates with SpringDoc OpenAPI for API documentation.
 
