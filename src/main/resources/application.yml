@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: codingtest
+  profiles:
+    active: dev
+web:
+  timeZone: Europe/London
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework: INFO
+    org.springframework.web: INFO
+    com.bt.hero: INFO
+
+springdoc:
+  swagger-ui:
+    path: /apidocs
+
+codingtest:
+  routerLocationUrl: "https://my-json-server.typicode.com/marcuzh/router_location_test_api/db"
