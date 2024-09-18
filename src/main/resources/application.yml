@@ -2,7 +2,7 @@ spring:
   application:
     name: codingtest
   profiles:
-    active: dev
+    active: main
 web:
   timeZone: Europe/London
 

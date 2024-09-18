@@ -75,9 +75,10 @@ class RouterLocationServiceTest {
 
         Set<String> result = routerLocationService.processRouterLocation();
 
-        assertEquals(2, result.size());
+        assertEquals(3, result.size());
         assertTrue(result.contains("location2 <-> location3"));
         assertTrue(result.contains("location1 <-> location2"));
+        assertTrue(result.contains("location1 <-> location3"));
     }
 
     @Test
