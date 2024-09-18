@@ -44,7 +44,7 @@ It outputs a list of unique links between routers, based on the data received fr
 
 ## Tests
 There is basic unit tests written for the base functionality of this app.
-Jacoco is a code coverage library which measures how much of the code is executed during tests. It helps identify untested parts of your codebase, ensuring higher code quality and reliability.
+Jacoco is a code coverage library used in this app which measures how much of the code is executed during tests. It helps identify untested parts of your codebase, ensuring higher code quality and reliability.
 
 ### Run tests
 ```bash
