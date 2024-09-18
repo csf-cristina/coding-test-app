@@ -1,6 +1,6 @@
 # Overview
 This is a Spring Boot WebFlux application designed to fetch data from an API, transform it and return the unique links between router locations. 
-The application is built using Java 17 and leverages Spring Boot’s WebFlux framework for building non-blocking, reactive web applications. In this case we are using RestClient to make the web calls as its a simple synchronous API call.
+The application is built using Java 17 and leverages Spring Boot’s WebFlux framework for building non-blocking, reactive web applications. In this case the app uses RestClient to make the web calls as its a simple synchronous API call.
 
 Additionally, it integrates with SpringDoc OpenAPI for API documentation.
 
@@ -44,7 +44,7 @@ It outputs a list of unique links between routers, based on the data received fr
 
 ## Tests
 There is basic unit tests written for the base functionality of this app.
-Jacoco is a code coverage library which measures how much of the code is executed during tests. It helps identify untested parts of your codebase, ensuring higher code quality and reliability.
+Jacoco is a code coverage library used in this app which measures how much of the code is executed during tests. It helps identify untested parts of your codebase, ensuring higher code quality and reliability.
 
 ### Run tests
 ```bash
